@@ -54,10 +54,10 @@ function handleRangeChange(event) {
 function handleModeClick(){
     if(filling === true){
         filling = false;
-        mode.innerText = "Fill";
+        mode.innerText = "페인트🎨";
     } else {
         filling = true;
-        mode.innerText = "Paint";
+        mode.innerText = "드로잉 ✍️";
     }
 }
 
